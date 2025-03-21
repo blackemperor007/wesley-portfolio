@@ -18,21 +18,25 @@ module.exports = {
         xl: "1200px",
       },
       fontFamily: {
-        
+        primary: "var(--font-bebas)",
+        secondary: "var(--font-inter)",
       },
       extend: {
         colors: {
-          colors: {
-            primary: "#10151f",
-            secondary: "#475467",
-            accent: {
-              DEFAULT: "#7edad2",
-              hover: "#79d3cc",
-            },
+          primary: "#10151f",
+          secondary: "#475467",
+          accent: {
+            DEFAULT: "#7edad2",
+            hover: "#79d3cc",
           },
+        },
+        boxShadow: {
+          custom: "0px 14px 54px rgba(0, 0, 0, 0.1)",
         },
       },
     },
-    plugins: [],
+    plugins: [
+      da
+    ],
   };
   
