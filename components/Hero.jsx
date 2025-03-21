@@ -3,14 +3,17 @@
 import Image from "next/image"
 import { Link as ScrollLink } from "react-scroll"
 import { TypeAnimation } from "react-type-animation"
+
+// components importation
 import RotatingShape from "./RotatingShape"
+import Header from "./Header"
 
 
 const Hero = () => {
     return (
         <section className="h-[800px] relative bg-accent/10 xl:bg-white">
             {/* HEADER  */}
-            <div>Header</div>
+            <Header />
             <div className="container mx-auto h-full">
                 <div className="relative z-20 h-full w-full xl:max-w-[768px] flex flex-col items-center xl:items-start justify-center text-center xl:text-left pt-10">
                     <h1 className="h1 text-5xl font-bold max-w-[320px] xl:max-w-none">
@@ -29,8 +32,10 @@ const Hero = () => {
                         Delivering powerful, custom websites that blend aesthetics with performance.
                     </p>
                     <ScrollLink to="contact" smooth={true} duration={500} className="cursor-pointer">
-                    <button className="btn btn-accent mb-8 text-white">Contact me</button>
-          </ScrollLink>
+                        <button className="btn btn-accent mb-8 text-white">Contact me</button>
+                    </ScrollLink>
+                    {/* STATISTIQUES  */}
+                    <div>Stats</div>
                 </div>
 
                 {/* IMAGE  */}
@@ -58,31 +63,46 @@ const Hero = () => {
                     {/* Shape 1 */}
                     <div className="absolute top-[600px] left-[3vw]">
                         <RotatingShape
-                        content={
-                            <Image
-                            src="/assets/hero/shape-1.svg"
-                            alt="shape"
-                            width={38}
-                            height={38}
-                            />
-                        }
-                        direction={"left"}
-                        duration={6}
+                            content={
+                                <Image
+                                    src="/assets/hero/shape-1.svg"
+                                    alt="shape"
+                                    width={38}
+                                    height={38}
+                                />
+                            }
+                            direction={"left"}
+                            duration={6}
                         />
                     </div>
                     {/* Shape 2 */}
                     <div className="absolute top-[600px] left-[3vw]">
                         <RotatingShape
-                        content={
-                            <Image
-                            src="/assets/hero/shape-2.svg"
-                            alt="shape"
-                            width={34}
-                            height={34}
-                            />
-                        }
-                        direction={"rigth"}
-                        duration={6}
+                            content={
+                                <Image
+                                    src="/assets/hero/shape-2.svg"
+                                    alt="shape"
+                                    width={34}
+                                    height={34}
+                                />
+                            }
+                            direction={"rigth"}
+                            duration={5}
+                        />
+                    </div>
+                    {/* Shape 3 */}
+                    <div className="absolute top-[600px] left-[3vw]">
+                        <RotatingShape
+                            content={
+                                <Image
+                                    src="/assets/hero/shape-3.svg"
+                                    alt="shape"
+                                    width={38}
+                                    height={38}
+                                />
+                            }
+                            direction={"left"}
+                            duration={6}
                         />
                     </div>
                 </div>
