@@ -48,15 +48,15 @@ const Contact = () => {
                                         <FaFacebookF className="w-7 h-7 fill-current" />
                                     </a>
 
-                                    <a href="#" className="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500">
+                                    <a href="https://github.com/blackemperor007" className="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500">
                                         <FaGithub className="w-7 h-7" />
                                     </a>
 
-                                    <a href="#" className="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500">
+                                    <a href="" className="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500">
                                         <FaLinkedinIn className="w-7 h-7" />
                                     </a>
 
-                                    <a href="#" className="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500">
+                                    <a href="https://www.tiktok.com/@pagnol_wesley?is_from_webapp=1&sender_device=pc" className="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500">
                                         <FaTiktok className="w-7 h-7" />
                                     </a>
                                 </div>
