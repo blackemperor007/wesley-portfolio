@@ -4,9 +4,9 @@ const Works = () => {
     const worksData = [
         {
             image : "./img/pro01.png",
-            name: "CineMovia App",
+            name: "Cash.Track App",
             date: "18 Aug,2025",
-            category: "Web App"
+            category: "NextJs App"
         },
         {
             image : "./img/pro02.png",
