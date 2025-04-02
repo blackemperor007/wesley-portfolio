@@ -24,9 +24,9 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className="sm:w-5/12 w-full flex justify-center items-center">
-                    {/* <div className="hero_img_container w-full max-w-[420px] bg-secondarycolor p-3 rounded-3xl border border-gray-600/[0.3] shadow-[5px_5px_0px_0px_rgba(109,40,217)]">
+                    <div className="hero_img_container w-full max-w-[420px] bg-secondarycolor p-3 rounded-3xl border border-gray-600/[0.3] shadow-[5px_5px_0px_0px_rgba(109,40,217)]">
                         <img src="./img/hero.png" alt="hero_img" className='w-full h-full rounded-3xl' />
-                    </div> */}
+                    </div>
                 </div>
             </div>
             <div className='w-11/12 md:gap-5 gap-3 h-fit pb-4 flex md:flex-row flex-col justify-center items-center'>
