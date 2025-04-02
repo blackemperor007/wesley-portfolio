@@ -9,7 +9,7 @@ const Works = () => {
             name: "Cash.Track App",
             category: "Web App with NextJs",
             path: "#",
-            linkGit: "#"
+            linkGit: "https://github.com/blackemperor007/finance_app_nextjs"
         },
         {
             image: "./img/pro02.png",
@@ -42,7 +42,7 @@ const Works = () => {
 
                                 <div className="flex gap-4 items-center">
 
-                                    <a href={works.path}
+                                    <a href={works.path} target="_blank" rel="noopener noreferrer"
                                         className="linear flex flex-row items-center rounded-xl bg-amber-500 px-5 py-3 text-base font-medium text-white transition duration-200 hover:bg-amber-600 active:bg-amber-700"
                                         data-ripple-light
                                     >
@@ -50,7 +50,7 @@ const Works = () => {
 
                                         Visiter le site
                                     </a>
-                                    <a href={works.linkGit}
+                                    <a href={works.linkGit} target="_blank" rel="noopener noreferrer"
                                         className="linear flex flex-row items-center rounded-xl bg-navy-700 px-4 py-3 text-base font-medium text-white transition duration-200 hover:bg-navy-800 active:bg-navy-900 dark:bg-white/10 dark:text-white dark:hover:bg-white/20 dark:active:bg-white/30"
                                         data-ripple-light
                                     >

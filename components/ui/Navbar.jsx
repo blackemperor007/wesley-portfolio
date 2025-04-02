@@ -39,7 +39,7 @@ const NavBar = () => {
             })
         }
       </ul>
-      <a href="#">
+      <a href="#" target="_blank" rel="noopener noreferrer">
         <button className="bg-primarycolor transition-all ease-out duration-200 px-6 rounded-2xl hover:opacity-85 py-2 text-sm w-full whitespace-nowrap">
           Hire me!
         </button>
